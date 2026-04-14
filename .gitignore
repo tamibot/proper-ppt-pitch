@@ -1,0 +1,69 @@
+# Credenciales — NUNCA commitear
+credentials/.env
+credentials/*.json
+credentials/*.p12
+credentials/*.pem
+credentials/*.key
+*.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+venv/
+env/
+.venv/
+
+# Outputs generados (no versionados por defecto)
+output/*.pptx
+output/*.pdf
+!output/.gitkeep
+!output/example_*.pptx
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# IDEs
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Node (si aplica)
+node_modules/
+npm-debug.log*
+
+# Temporales
+*.tmp
+*.temp
+.cache/

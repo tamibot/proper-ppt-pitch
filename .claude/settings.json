@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(*)",
+      "Read(*)",
+      "Write(*)",
+      "Edit(*)",
+      "Glob(*)",
+      "Grep(*)",
+      "WebFetch(*)",
+      "WebSearch(*)",
+      "TodoWrite(*)",
+      "mcp__computer-use__*",
+      "mcp__Claude_in_Chrome__*",
+      "mcp__Claude_Preview__*",
+      "mcp__0cff1296-5435-45be-8427-913120115638__*",
+      "mcp__384ac32e-452c-482b-8be5-01d9d874fa6b__*",
+      "mcp__pdf-viewer__*",
+      "mcp__scheduled-tasks__*",
+      "mcp__mcp-registry__*",
+      "Agent(*)"
+    ],
+    "deny": []
+  },
+  "model": "claude-sonnet-4-6",
+  "cleanupPeriodDays": 30,
+  "includeCoAuthoredBy": true,
+  "autoUpdaterStatus": "enabled"
+}

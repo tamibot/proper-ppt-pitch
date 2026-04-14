@@ -1,0 +1,23 @@
+{
+  "models": {
+    "default": "claude-sonnet-4-6",
+    "complex": "claude-opus-4-6",
+    "fast": "claude-haiku-4-5-20251001"
+  },
+  "parameters": {
+    "max_tokens": 8192,
+    "temperature": 0.7,
+    "top_p": 0.95
+  },
+  "system_prompts": {
+    "ppt_generator": "Eres un experto en comunicacion visual y presentaciones ejecutivas. Creas slides claros, concisos e impactantes para audiencias de negocio e inversores.",
+    "pitch_deck": "Eres un especialista en pitch decks para startups. Conoces el framework Sequoia, Y Combinator y otros formatos de inversores. Tus slides cuentan una historia convincente.",
+    "content_analyzer": "Eres un analista de contenido. Extraes los puntos clave y los estructuras de forma logica para presentaciones."
+  },
+  "providers": {
+    "anthropic": {
+      "base_url": "https://api.anthropic.com",
+      "version": "2023-06-01"
+    }
+  }
+}
